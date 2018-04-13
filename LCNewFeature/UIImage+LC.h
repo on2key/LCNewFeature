@@ -26,5 +26,10 @@
                                 iphone5:(BOOL)iphone5
                                 iphone6:(BOOL)iphone6
                                iphone6p:(BOOL)iphone6p;
++ (instancetype)imageNamedForAdaptation:(NSString *)imageName
+                                iphone5:(BOOL)iphone5
+                                iphone6:(BOOL)iphone6
+                               iphone6p:(BOOL)iphone6p
+                                iphoneX:(BOOL)iphoneX;
 
 @end
