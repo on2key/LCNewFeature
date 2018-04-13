@@ -170,7 +170,8 @@
 
             CGFloat imageX = imageW * i;
             NSString *realImageName = [NSString stringWithFormat:@"%@_%d", _imageName, i + 1];
-            UIImage *realImage = [UIImage imageNamedForAdaptation:realImageName iphone5:YES iphone6:YES iphone6p:YES];
+            //UIImage *realImage = [UIImage imageNamedForAdaptation:realImageName iphone5:YES iphone6:YES iphone6p:YES];
+            UIImage *realImage = [UIImage imageNamedForAdaptation:realImageName iphone5:YES iphone6:YES iphone6p:YES iphoneX:YES];
 
             UIImageView *imageView = [[UIImageView alloc] init];
             [imageView setImage:realImage];
